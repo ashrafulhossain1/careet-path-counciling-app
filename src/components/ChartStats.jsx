@@ -13,7 +13,7 @@ const ChartStats = () => {
     return (
         <div className="text-black my-6 px-4">
             <div className="flex flex-col justify-center items-center">
-                <h1 className="text-2xl md:text-3xl font-semibold text-center">PRODUCTIVITY CHART</h1>
+                <h1 className="text-xl md:text-3xl font-semibold text-center">PRODUCTIVITY CHART AFTER AND BEFORE APPOINTMENT </h1>
                 <div className="flex flex-col md:flex-row items-center gap-4 mt-4">
                     <div className="flex justify-center items-center">
                         <button className="h-4 w-4 border bg-green-600"></button>

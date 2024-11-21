@@ -12,6 +12,7 @@ import Edit from "../components/Profile/Edit";
 import ServiceDetails from "../components/Profile/ServiceDetails";
 import BookAppointment from "../pages/BookAppointment";
 import ErrorPage from "../components/ErrorPage";
+import AboutUs from "../pages/AboutUs";
 
 const routes = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ const routes = createBrowserRouter([
                 element: <ProtectedRoute><BookAppointment></BookAppointment></ProtectedRoute>,
                 loader: () => fetch("/services.json")
             },
+            {
+                path: '/contactUs',
+                element: <AboutUs></AboutUs>
+            }
         ]
     }
 ])

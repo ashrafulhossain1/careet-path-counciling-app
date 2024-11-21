@@ -21,6 +21,9 @@ const Navbar = () => {
             <li>
                 <NavLink to="/profile">My Profile</NavLink>
             </li>
+            <li>
+                <NavLink to="/contactUs">Contact Us</NavLink>
+            </li>
             {user && (
                 <>
                     <li className="relative">
@@ -38,7 +41,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar text-white font-medium max-w-screen-xl mx-auto sticky top-0" >
+        <div className="navbar text-white font-medium max-w-screen-2xl mx-auto sticky top-0" >
             <div className="navbar-start w-4/12 md:w-1/2">
                 <div className="dropdown ">
                     <div tabIndex={0} role="button" className="btn btn-ghost p-0 lg:hidden">
