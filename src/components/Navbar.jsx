@@ -83,7 +83,7 @@ const Navbar = () => {
                         user && <img title={user.displayName} src={user?.photoURL || unknownImage} alt="" className='h-8 md:h-10 w-8 md:w-10 rounded-full border-2 border-teal-600' />
                     }
                     {
-                        user && <span className='text-slate-200 font-light text-xs md:text-base 
+                        user && <span className='text-slate-200 hidden md:block font-light text-xs md:text-base 
                         border-l border-b pl-1'>{user.displayName}</span>
                     }
                 </div>
