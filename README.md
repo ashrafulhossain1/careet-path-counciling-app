@@ -1,4 +1,4 @@
-# Career Navigator - Career Counseling Website
+# Career Path - Career Counseling Website
 
 **Career Navigator** is a modern, user-friendly career counseling platform that helps individuals make informed decisions about their professional future. Built using React, React Router, Firebase, and Tailwind CSS, this website offers personalized career guidance, services, and resources.
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Live Site URL
 
-[Visit Career Navigator](https://your-live-site-url.com)
+[Visit Career Navigator](https://career-path-and-counciling.netlify.app)
 
 ---
 
@@ -81,4 +81,4 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/career-navigator.git
+   git clone https://github.com/programming-hero-web-course1/b10-a9-authentication-ashrafulhossain1.git
