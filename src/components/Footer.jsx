@@ -12,7 +12,7 @@ const Footer = () => {
                         alt="Logo"
                         className="h-16 mx-auto md:mx-0 rounded-lg"
                     />
-                    <p className="text-xl md:text-2xl">CAREER <span className="font-bold">PATH</span></p>
+                    <p className="text-xl md:text-2xl mt-2">CAREER <span className="font-bold">PATH</span></p>
                     
                 </div>
 

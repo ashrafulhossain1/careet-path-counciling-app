@@ -30,7 +30,7 @@ const BookAppointment = () => {
             </div>
             {
                 bookAppointment.length > 0 ? (
-                    <div className='grid grid-cols-1 md:grid-cols-2 w-1/2 mx-auto md:gap-10 space-y-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 md:w-2/3 lg:grid-cols-3 mx-auto md:gap-10 space-y-4'>
                         {bookAppointment.map((item) => (
                             <BookCard service={item} key={item.id}></BookCard>
                         ))}

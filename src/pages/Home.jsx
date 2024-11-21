@@ -23,7 +23,7 @@ const Home = () => {
             </div>
 
             {/* services sectiopn */}
-            <section id="services" className='max-w-screen-xl mx-auto'>
+            <section id="services" className='max-w-screen-xl px-2 mx-auto'>
                 <div className=" pt-12 px-6 md:pt-20 md:px-12 text-center">
                     <h1 className="text-2xl lg:text-5xl  font-bold text-gray-700 drop-shadow-lg">
                         Empowering Your Journey <span className="text-[#115E59]">-Personalized Counseling Services</span>

@@ -42,7 +42,7 @@ const ServiceDetails = () => {
             <Helmet>
                 <title>Product Details</title>
             </Helmet>
-            <span className='text-teal-700 font-bold text-2xl text-center flex justify-center'>Lifezy</span>
+            <span className='text-teal-700 font-bold text-2xl text-center flex justify-center'>Career Path</span>
             <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-800 text-center mb-8">
                 Information and Guidance
             </h1>

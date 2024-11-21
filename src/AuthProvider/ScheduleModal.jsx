@@ -3,51 +3,10 @@ import React from "react";
 const ScheduleModal = ({ service }) => {
   if (!service) return null; 
 
-//   {
-//     "id": 3,
-//     "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
-//     "serviceName": "Resume Review",
-//     "category": "Offline",
-//     "description": "Get detailed feedback on your resume’s structure and content to make it stand out in your job search.",
-//     "pricing": 30,
-//     "duration": "06-12-24 10am-11am",
-//     "counselor": "Mr. John Doe",
-//     "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
-//     "rating": 4.7,
-//     "coreFeatures": [
-//       {
-//         "feature": "Detailed feedback on resume structure"
-//       },
-//       {
-//         "feature": "Suggestions for content optimization"
-//       },
-//       {
-//         "feature": "Guidance on tailoring resumes for job roles"
-//       }
-//     ],
-//     "study": "Stanford University (Non-PhD) US",
-//     "schedule": [
-//       {
-//         "day": "Monday",
-//         "time": "10am-11am"
-//       },
-//       {
-//         "day": "Wednesday",
-//         "time": "10am-11am"
-//       },
-//       {
-//         "day": "Friday",
-//         "time": "9am-10am"
-//       }
-//     ],
-//     "contactNumber": "+1 650 723 1234"
-//   },
-
-
 
   return (
     <div>
-      <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+      <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle p-2">
         <div className="modal-box">
           {/* Modal Header */}
           <div className="flex items-center justify-between">
@@ -64,9 +23,9 @@ const ScheduleModal = ({ service }) => {
           <div className="mt-4">
             {/* Image Section */}
             <img
-              src={service.image}
+              src={service.counselorPhoto}
               alt={service.serviceName}
-              className="w-full h-52 object-cover rounded-md shadow-md"
+              className="w-full h-64 object-cover rounded-md shadow-md"
             />
 
             {/* Details Section */}
