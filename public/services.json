@@ -40,14 +40,14 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/jRgVCk5/course-3190544.jpg",
     "serviceName": "Career Counseling Sessions",
     "category": "Online",
     "description": "Personalized career advice to identify paths and achieve goals. Receive actionable insights on job market trends and career transitions.",
     "pricing": 50,
     "duration": "05-12-24 5pm-6pm",
     "counselor": "Dr. Emily Carter",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/Ycw4zPL/istockphoto-1278978817-612x612.jpg",
     "rating": 4.8,
     "coreFeatures": [
       {
@@ -79,14 +79,14 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/yYPpMBp/istockphoto-1409440932-2048x2048.jpg",
     "serviceName": "Resume Review",
     "category": "Offline",
     "description": "Get detailed feedback on your resume’s structure and content to make it stand out in your job search.",
     "pricing": 30,
     "duration": "06-12-24 10am-11am",
     "counselor": "Mr. John Doe",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/103M16B/man-outside-091318-800x450.jpg",
     "rating": 4.7,
     "coreFeatures": [
       {
@@ -118,14 +118,14 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/VD1CBDg/importance-of-career-guidance-for-students-1024x683.webp",
     "serviceName": "Group Career Guidance",
     "category": "Group",
     "description": "Collaborative session offering career planning through group discussions and shared learning experiences.",
     "pricing": 25,
     "duration": "07-12-24 3pm-4:30pm",
     "counselor": "Ms. Sarah Lee",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/FDFnKvw/istockphoto-1317784594-612x612.jpg",
     "rating": 4.5,
     "coreFeatures": [
       {
@@ -157,14 +157,14 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/TBR0vW5/Job-interview-with-two-interviewers-scaled.jpg",
     "serviceName": "Mock Interview Preparation",
     "category": "Online",
     "description": "Prepare for job interviews with simulated scenarios and personalized feedback on performance and communication.",
     "pricing": 40,
     "duration": "08-12-24 2pm-3pm",
     "counselor": "Mr. Liam Thompson",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/rw4d6Ct/Rief-Smile2.jpg",
     "rating": 4.9,
     "coreFeatures": [
       { "feature": "Simulated real-life interview scenarios" },
@@ -183,14 +183,14 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/dttfr0R/Top-Industry-Technical-Skills.webp",
     "serviceName": "Skill Development Workshop",
     "category": "Group",
     "description": "Enhance your personal and professional skills with interactive activities on communication, leadership, and time management.",
     "pricing": 35,
     "duration": "09-12-24 11am-1pm",
     "counselor": "Ms. Olivia Brown",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/TvFm8Pg/461494518-3927053130903991-1669048447871862858-n.jpg",
     "rating": 4.6,
     "coreFeatures": [
       { "feature": "Interactive skill-building activities" },
@@ -207,14 +207,14 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/ZzHZpv8/benefits-of-mental-health-counseling-scaled-1.webp",
     "serviceName": "Mental Health Counseling",
     "category": "Online",
     "description": "Receive personalized mental health support, focusing on stress management and building resilience for a better quality of life.",
     "pricing": 55,
     "duration": "10-12-24 3pm-4pm",
     "counselor": "Dr. Andrew Smith",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/LpMSnGM/channels4-profile.jpg",
     "rating": 4.9,
     "coreFeatures": [
       { "feature": "Personalized mental health support" },
@@ -231,14 +231,14 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "image": "https://i.ibb.co.com/Wt6GqX3/1639472461651.jpg",
     "serviceName": "Career Networking Event",
     "category": "Offline",
     "description": "Join an interactive event to expand your network, gain industry insights, and discover career growth opportunities.",
     "pricing": 20,
     "duration": "10-12-24 6pm-8pm",
     "counselor": "Panel of Experts",
-    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "counselorPhoto": "https://i.ibb.co.com/H7bN66d/Getty-Images-637928410-769631096.webp",
     "rating": 4.8,
     "coreFeatures": [
       { "feature": "Networking with industry experts" },

@@ -85,7 +85,6 @@ const Navbar = () => {
                     user ? <button onClick={handleLogOut} className='text-xs btn btn-ghost md:text-base'>Log out</button> : <>
 
                         <NavLink to='/signIn' className='text-xs btn btn-ghost  md:text-base'>Sign In</NavLink>
-                        <NavLink to='/signup' className='text-xs  btn btn-ghost md:text-base ml-3'>Sign Up</NavLink>
                     </>
                 }
             </div>

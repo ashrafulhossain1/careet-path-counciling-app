@@ -5,6 +5,7 @@ import ServiceCard from '../components/ServiceCard';
 import Counter from '../components/Counter';
 import FAQ from '../components/FAQ';
 import { Helmet } from 'react-helmet-async';
+import ChartStats from '../components/ChartStats';
 
 const Home = () => {
     const allServices = useLoaderData()
@@ -23,7 +24,7 @@ const Home = () => {
 
             {/* services sectiopn */}
             <section id="services" className='max-w-screen-xl mx-auto'>
-                <div className=" b pt-12 px-6 md:pt-20 md:px-12 text-center">
+                <div className=" pt-12 px-6 md:pt-20 md:px-12 text-center">
                     <h1 className="text-2xl lg:text-5xl  font-bold text-gray-700 drop-shadow-lg">
                         Empowering Your Journey <span className="text-[#115E59]">-Personalized Counseling Services</span>
                     </h1>
@@ -39,9 +40,16 @@ const Home = () => {
                 </div>
             </section>
             {/* count */}
-            <section className='bg-gray-200 py-10 rounded-[40px] '>
-                <div className='max-w-screen-xl mx-auto'>
-                    <Counter></Counter>
+            <section className='bg-white  '>
+                <div className='bg-gray-200 py-10 md:py-24 rounded-[40px]'>
+                    <div className='max-w-screen-xl mx-auto'>
+                        <Counter></Counter>
+                    </div>
+                </div>
+                <div className='bg-white'>
+                    <div>
+                        <ChartStats></ChartStats>
+                    </div>
                 </div>
             </section>
             {/* FAQ */}
