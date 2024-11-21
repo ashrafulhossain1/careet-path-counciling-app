@@ -6,7 +6,7 @@
 
 ## 🚀 Live Site URL
 
-[Visit Career Navigator](https://career-path-and-counciling.netlify.app)
+[Visit Career Path](https://career-path-and-counciling.netlify.app)
 
 ---
 
