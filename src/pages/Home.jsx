@@ -41,8 +41,8 @@ const Home = () => {
             </section>
             {/* count */}
             <section className='bg-white  '>
-                <div className='bg-gray-200 py-10 md:py-24 rounded-[40px]'>
-                    <div className='max-w-screen-xl mx-auto'>
+                <div className='bg-gray-200 py-10 md:py-24 rounded-2xl md:rounded-[40px]'>
+                    <div className='max-w-screen-xl p-4 md:p-4 mx-auto'>
                         <Counter></Counter>
                     </div>
                 </div>

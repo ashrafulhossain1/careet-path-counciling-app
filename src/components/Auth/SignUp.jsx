@@ -34,16 +34,16 @@ const SignUp = () => {
 
       emailPasswordSignUp(email, password)
          .then((result) => {
-            console.log(result)
+            // console.log(result)
             toast.success("Successfully login this page");
 
             updateProfileData(name, photo)
                .then(() => {
-                  console.log("Name and Photo Update")
+                  // console.log("Name and Photo Update")
                   // navigate('/')
                })
                .catch(updateError => {
-                  console.log(updateError.message)
+                  // console.log(updateError.message)
                })
             navigate('/')
          })
@@ -54,7 +54,7 @@ const SignUp = () => {
    }
 
 
-   console.log(showPassword)
+   // console.log(showPassword)
 
 
 

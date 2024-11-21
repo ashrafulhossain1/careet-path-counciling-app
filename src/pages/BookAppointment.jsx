@@ -13,19 +13,19 @@ const BookAppointment = () => {
     // console.log(services, appointment)
     useEffect(() => {
         const filteredData = [...services].filter((service) => appointment.includes(service.id))
-        console.log(filteredData, appointment)
+        // console.log(filteredData, appointment)
         setBookAppointment(filteredData)
     }, [])
 
     const navigate = useNavigate();
     return (
-        <div className='bg-slate-100'>
+        <div className='p-4'>
             <Helmet>
                 <title>Book Appointment | Career Path</title>
             </Helmet>
             <div className='my-4 md:my-8 max-w-screen-xl mx-auto'>
-                <h1 className="text-center text-4xl font-bold mb-4">Book Your Appointment</h1>
-                <p className="text-center mb-8">Select a service below to book your appointment with our expert counselors.</p>
+                <h1 className="text-center test-2xl md:text-4xl font-bold mb-4">Book Your Appointment</h1>
+                <p className="text-center text-sm md:text-base mb-8">Select a service below to book your appointment with our expert counselors.</p>
                 <div className="divider"></div>
             </div>
             {
@@ -37,12 +37,12 @@ const BookAppointment = () => {
                     </div>
                 ) : (
                     <div className='flex flex-col items-center justify-center space-y-6 mt-10'>
-                        <p className="text-3xl font-bold text-red-500 text-center">
+                        <p className="text-xl md:text-3xl font-bold text-red-500 text-center">
                             No appointments available.
                         </p>
                         <button
                             onClick={() => navigate('/#services')}
-                            className="btn px-6  bg-teal-700 hover:bg-teal-800 rounded-lg text-white text-lg shadow-lg hover:scale-105 transform transition-transform"
+                            className="btn btn-md md:btn-lg px-6  bg-teal-700 hover:bg-teal-800 rounded-lg text-white text-lg shadow-lg hover:scale-105 transform transition-transform"
                         >
                             Go to Services
                         </button>

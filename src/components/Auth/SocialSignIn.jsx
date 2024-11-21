@@ -9,7 +9,7 @@ import Swal from 'sweetalert2'
 const SocialSignIn = ({ pageName, user }) => {
     const location = useLocation()
     const navigate = useNavigate()
-    console.log("SOCIAL SIGN IN", location)
+    // console.log("SOCIAL SIGN IN", location)
 
     const { googleSignIn, githubSignIn } = useContext(AuthContext)
 
@@ -21,7 +21,7 @@ const SocialSignIn = ({ pageName, user }) => {
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
-                console.log('google Login error', error.message)
+                // console.log('google Login error', error.message)
             })
 
     }
@@ -33,7 +33,7 @@ const SocialSignIn = ({ pageName, user }) => {
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
-                console.log('google Login error', error.message)
+                // console.log('google Login error', error.message)
             })
     }
 

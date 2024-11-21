@@ -3,7 +3,7 @@ import logo from '../assets/logocp.webp';
 
 const Footer = () => {
     return (
-        <footer className=" text-white py-8 max-w-screen-xl mx-auto">
+        <footer className=" text-white py-8 max-w-screen-xl mx-auto p-4">
             <div className="container mx-auto flex flex-col md:flex-row  md:items-start md:justify-between">
                 {/* Logo Section */}
                 <div className="text-center md:text-left mb-6 md:mb-0">

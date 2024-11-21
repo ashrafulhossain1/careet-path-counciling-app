@@ -6,9 +6,9 @@ const Feedback = () => {
   console.log(user)
   const [textarea, setTextarea] = useState("")
   const [feedback, setFeedback] = useState([])
-  console.log(textarea)
+  // console.log(textarea)
 
-  console.log(textarea.trim())
+  // console.log(textarea.trim())
 
   const handleSubmit = () => {
     const textareaTrim = textarea.trim()
@@ -17,11 +17,11 @@ const Feedback = () => {
       setTextarea('')
     }
     else {
-      console.log('else')
+      // console.log('else')
     }
   }
 
-  console.log(feedback)
+  // console.log(feedback)
 
   return (
     <div className=''>

@@ -11,12 +11,13 @@ import Preview from "../components/Profile/Preview";
 import Edit from "../components/Profile/Edit";
 import ServiceDetails from "../components/Profile/ServiceDetails";
 import BookAppointment from "../pages/BookAppointment";
+import ErrorPage from "../components/ErrorPage";
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
-        errorElement: <h1 className="btn">Page not Found</h1>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -41,7 +42,7 @@ const routes = createBrowserRouter([
                 path: '/details/:id',
                 element: <ProtectedRoute><ServiceDetails></ServiceDetails></ProtectedRoute>,
                 loader: async ({ params }) => {
-                    console.log(params)
+                    // console.log(params)
                     const res = await fetch("/services.json")
                     const data = await res.json()
                     const singleService = data.find(service => service.id == params.id)

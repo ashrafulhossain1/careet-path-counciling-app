@@ -19,7 +19,9 @@ const FAQ = () => {
                         <img
                             src={FAQimg}
                             alt="Counseling Illustration"
-                            className="h-[320px] md:h-[550px] lg:h-[550px] w-1/2 rounded-lg object-cover  flex-grow"
+                            className="h-[320px] md:h-[550px] lg:h-[550px] w-1/2 rounded-lg object-cover  flex-grow
+                            transform transition-transform hover:scale-105
+                            "
                         />
                     </div>
                 </div>

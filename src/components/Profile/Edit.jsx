@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { Helmet } from 'react-helmet-async';
+import toast from 'react-hot-toast'
 
 const Edit = () => {
     const { updateProfileData, user, unknownImage, updateUser, setUpdateUser } = useContext(AuthContext)
@@ -24,12 +25,13 @@ const Edit = () => {
 
         updateProfileData(name, photo)
             .then(() => {
-                console.log("Profile Updated")
+                // console.log("Profile Updated")
                 setUpdateUser(user)
+                toast.success("Profile Update Successfully")
                 navigate('/profile')
             })
             .catch((error) => {
-                console.log("Mistake Ho Gaya", error)
+                // console.log("Mistake Ho Gaya", error)
             })
     }
 

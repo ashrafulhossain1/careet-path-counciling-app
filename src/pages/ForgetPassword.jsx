@@ -8,7 +8,7 @@ const ForgetPassword = () => {
     const navigate = useNavigate()
     const { forgetPassword, forgetEmail, setForgetEmail } = useContext(AuthContext)
 
-    console.log("YES", forgetEmail)
+    // console.log("YES", forgetEmail)
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -17,12 +17,12 @@ const ForgetPassword = () => {
 
         forgetPassword(forgetEmail)
             .then((result) => {
-                console.log('get code', result)
+                // console.log('get code', result)
                 window.open("https://mail.google.com/", "_blank")
                 navigate("/signin")
             })
             .catch((error) => {
-                console.log(error.message)
+                // console.log(error.message)
             })
     }
 

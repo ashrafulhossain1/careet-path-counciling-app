@@ -14,7 +14,7 @@ const AuthProvider = ({ children }) => {
     const [loader, setLoader] = useState(true);
     const [forgetEmail, setForgetEmail] = useState('')
     const [appointment, setAppointment] = useState([])
-    console.log("HHHHHHHHHHH", appointment)
+    // console.log("HHHHHHHHHHH", appointment)
 
     const googleSignIn = () => {
         return signInWithPopup(auth, googleProvider)
@@ -50,11 +50,11 @@ const AuthProvider = ({ children }) => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
             if (currentUser) {
                 setUser(currentUser)
-                console.log('Current USER - ON-Auth-state:', currentUser)
+                // console.log('Current USER - ON-Auth-state:', currentUser)
             }
             else {
                 setUser(null)
-                console.log("NOT FOUND")
+                // console.log("NOT FOUND")
             }
             setLoader(false)
         })
@@ -63,7 +63,7 @@ const AuthProvider = ({ children }) => {
         }
     }, [])
 
-    console.log("MAIN USER use-state", user)
+    // console.log("MAIN USER use-state", user)
 
 
     const authInfo = {

@@ -64,9 +64,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex items-center gap-3'>
-                    <img src={logo} className='ml-2 h-8 w-8 md:h-12 md:w-12 object-cover rounded-xl' alt="" />
-                    <Link to='/' className="pl-0 text-xl md:text-2xl btn btn-ghost 
-                animate__animated  animate__flip  animate__slower">Career Path</Link>
+                <img src={logo} className='ml-2 h-8 hidden md:flex w-8 md:h-12 md:w-12 object-cover rounded-xl' alt="" />
+
+                    <Link to='/' className="pl-0 text-base md:text-2xl btn btn-ghost 
+                animate__animated  animate__flip  animate__slower">CareerPath</Link>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
