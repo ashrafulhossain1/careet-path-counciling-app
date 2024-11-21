@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Parenting Guidance",
+    "category": "Online",
+    "description": "Expert advice on managing parenting challenges, from discipline to emotional growth, for all ages. Gain strategies to strengthen family relationships.",
+    "pricing": 45,
+    "duration": "04-12-24 4pm-5pm",
+    "counselor": "Ms. Laura Wilson",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 2,
+    "coreFeatures": [
+      {
+        "feature": "Customized parenting advice"
+      },
+      {
+        "feature": "Strategies for behavior management"
+      },
+      {
+        "feature": "Guidance on building strong relationships"
+      }
+    ],
+    "study": "University of Oxford (PhD) UK",
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "4pm-5pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "4pm-5pm"
+      },
+      {
+        "day": "Friday",
+        "time": "3pm-4pm"
+      }
+    ],
+    "contactNumber": "+44 1234 567890"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Career Counseling Sessions",
+    "category": "Online",
+    "description": "Personalized career advice to identify paths and achieve goals. Receive actionable insights on job market trends and career transitions.",
+    "pricing": 50,
+    "duration": "05-12-24 5pm-6pm",
+    "counselor": "Dr. Emily Carter",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.8,
+    "coreFeatures": [
+      {
+        "feature": "Personalized career planning"
+      },
+      {
+        "feature": "Insights into current job market trends"
+      },
+      {
+        "feature": "Support for career transitions"
+      }
+    ],
+    "study": "Harvard University (PhD) US",
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "5pm-6pm"
+      },
+      {
+        "day": "Thursday",
+        "time": "5pm-6pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "4pm-5pm"
+      }
+    ],
+    "contactNumber": "+1 617 495 1234"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Resume Review",
+    "category": "Offline",
+    "description": "Get detailed feedback on your resume’s structure and content to make it stand out in your job search.",
+    "pricing": 30,
+    "duration": "06-12-24 10am-11am",
+    "counselor": "Mr. John Doe",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.7,
+    "coreFeatures": [
+      {
+        "feature": "Detailed feedback on resume structure"
+      },
+      {
+        "feature": "Suggestions for content optimization"
+      },
+      {
+        "feature": "Guidance on tailoring resumes for job roles"
+      }
+    ],
+    "study": "Stanford University (Non-PhD) US",
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "10am-11am"
+      },
+      {
+        "day": "Wednesday",
+        "time": "10am-11am"
+      },
+      {
+        "day": "Friday",
+        "time": "9am-10am"
+      }
+    ],
+    "contactNumber": "+1 650 723 1234"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Group Career Guidance",
+    "category": "Group",
+    "description": "Collaborative session offering career planning through group discussions and shared learning experiences.",
+    "pricing": 25,
+    "duration": "07-12-24 3pm-4:30pm",
+    "counselor": "Ms. Sarah Lee",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.5,
+    "coreFeatures": [
+      {
+        "feature": "Group discussion on career strategies"
+      },
+      {
+        "feature": "Peer learning opportunities"
+      },
+      {
+        "feature": "Tools for career goal setting"
+      }
+    ],
+    "study": "University of Melbourne (Non-PhD) AU",
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "3pm-4:30pm"
+      },
+      {
+        "day": "Wednesday",
+        "time": "3pm-4:30pm"
+      },
+      {
+        "day": "Friday",
+        "time": "2pm-3:30pm"
+      }
+    ],
+    "contactNumber": "+61 3 8344 1234"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Mock Interview Preparation",
+    "category": "Online",
+    "description": "Prepare for job interviews with simulated scenarios and personalized feedback on performance and communication.",
+    "pricing": 40,
+    "duration": "08-12-24 2pm-3pm",
+    "counselor": "Mr. Liam Thompson",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.9,
+    "coreFeatures": [
+      { "feature": "Simulated real-life interview scenarios" },
+      { "feature": "Personalized feedback and coaching" },
+      { "feature": "Guidance on managing interview anxiety" },
+      { "feature": "Practice for different job roles" },
+      { "feature": "Improvement of communication skills" }
+    ],
+    "study": "University of Cambridge (PhD) UK",
+    "schedule": [
+      { "day": "Tuesday", "time": "2pm-3pm" },
+      { "day": "Thursday", "time": "2pm-3pm" },
+      { "day": "Saturday", "time": "1pm-2pm" }
+    ],
+    "contactNumber": "+44 1223 765432"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Skill Development Workshop",
+    "category": "Group",
+    "description": "Enhance your personal and professional skills with interactive activities on communication, leadership, and time management.",
+    "pricing": 35,
+    "duration": "09-12-24 11am-1pm",
+    "counselor": "Ms. Olivia Brown",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.6,
+    "coreFeatures": [
+      { "feature": "Interactive skill-building activities" },
+      { "feature": "Insights into teamwork and leadership" },
+      { "feature": "Practical tools for professional growth" }
+    ],
+    "study": "University of Toronto (Non-PhD) CA",
+    "schedule": [
+      { "day": "Monday", "time": "11am-1pm" },
+      { "day": "Wednesday", "time": "10am-12pm" },
+      { "day": "Friday", "time": "1pm-3pm" }
+    ],
+    "contactNumber": "+1 416 978 1234"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Mental Health Counseling",
+    "category": "Online",
+    "description": "Receive personalized mental health support, focusing on stress management and building resilience for a better quality of life.",
+    "pricing": 55,
+    "duration": "10-12-24 3pm-4pm",
+    "counselor": "Dr. Andrew Smith",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.9,
+    "coreFeatures": [
+      { "feature": "Personalized mental health support" },
+      { "feature": "Stress management techniques" },
+      { "feature": "Focus on building resilience" }
+    ],
+    "study": "University of Sydney (PhD) AU",
+    "schedule": [
+      { "day": "Tuesday", "time": "3pm-4pm" },
+      { "day": "Thursday", "time": "2pm-3pm" },
+      { "day": "Saturday", "time": "3pm-4pm" }
+    ],
+    "contactNumber": "+61 2 9351 1234"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/p1qmMnT/paranting.jpg",
+    "serviceName": "Career Networking Event",
+    "category": "Offline",
+    "description": "Join an interactive event to expand your network, gain industry insights, and discover career growth opportunities.",
+    "pricing": 20,
+    "duration": "10-12-24 6pm-8pm",
+    "counselor": "Panel of Experts",
+    "counselorPhoto": "https://i.ibb.co/DQSnsQw/psychologist.jpg",
+    "rating": 4.8,
+    "coreFeatures": [
+      { "feature": "Networking with industry experts" },
+      { "feature": "Insights into professional trends" },
+      { "feature": "Opportunities for career growth" }
+    ],
+    "study": "Massachusetts Institute of Technology (Non-PhD) US",
+    "schedule": [
+      { "day": "Monday", "time": "6pm-8pm" },
+      { "day": "Wednesday", "time": "6pm-8pm" },
+      { "day": "Friday", "time": "5pm-7pm" }
+    ],
+    "contactNumber": "+1 617 253 1234"
+  }
+]
