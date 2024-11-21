@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import { split } from 'postcss/lib/list';
+import logo from '../assets/logocp.webp'
 
 const Navbar = () => {
     const { user, logOut, unknownImage, loader, appointment } = useContext(AuthContext)
@@ -62,7 +63,11 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <Link to='/' className=" text-xl btn btn-ghost">Lifezy</Link>
+                <div className='flex items-center gap-3'>
+                    <img src={logo} className='ml-2 h-8 w-8 md:h-12 md:w-12 object-cover rounded-xl' alt="" />
+                    <Link to='/' className="pl-0 text-xl md:text-2xl btn btn-ghost 
+                animate__animated  animate__flip  animate__slower">Career Path</Link>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-white">

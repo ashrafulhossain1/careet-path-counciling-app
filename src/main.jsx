@@ -6,6 +6,7 @@ import routes from './routes/routes.jsx'
 import AuthProvider from './AuthProvider/AuthProvider.jsx'
 import { HelmetProvider } from 'react-helmet-async'
 import { Toaster } from 'react-hot-toast'
+import 'animate.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

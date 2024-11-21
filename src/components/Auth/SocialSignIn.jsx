@@ -3,6 +3,8 @@ import { IoLogoGithub } from "react-icons/io5";
 import React, { useContext } from 'react';
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2'
+
 
 const SocialSignIn = ({ pageName, user }) => {
     const location = useLocation()
@@ -15,6 +17,7 @@ const SocialSignIn = ({ pageName, user }) => {
     const handleGoogle = () => {
         googleSignIn()
             .then((result) => {
+                notifySuccess()
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
@@ -26,11 +29,22 @@ const SocialSignIn = ({ pageName, user }) => {
     const handleGithub = () => {
         githubSignIn()
             .then((result) => {
+                notifySuccess()
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.log('google Login error', error.message)
             })
+    }
+
+
+    const notifySuccess = () => {
+        Swal.fire({
+            title: 'Welcome',
+            text: 'You are Login | Career Path',
+            icon: 'success',
+            confirmButtonText: 'Okay'
+        })
     }
     return (
         <div>

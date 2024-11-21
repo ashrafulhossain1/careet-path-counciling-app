@@ -17,9 +17,8 @@ const ServiceDetails = () => {
 
         console.log('book appointment', id)
         if (appointment.includes(serviceId)) {
-            console.log('ace')
             // notifyError()
-            toast.error('This is a success message!')
+            toast.error('Already Booked Of This Appointment!')
         }
         else {
             setAppointment([...appointment, serviceId])
@@ -30,10 +29,10 @@ const ServiceDetails = () => {
     
     const notifySuccess = () => {
         Swal.fire({
-            title: 'Error!',
-            text: 'Do you want to continue',
+            title: 'Welcome!',
+            text: 'You Have Successfully Book Appointment',
             icon: 'success',
-            confirmButtonText: 'Cool'
+            confirmButtonText: 'okay'
         })
     }
 

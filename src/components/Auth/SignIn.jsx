@@ -3,8 +3,8 @@ import SocialSignIn from "./SocialSignIn";
 import { useContext, useRef } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Helmet } from "react-helmet-async";
-import toast from 'react-hot-toast'
 import Swal from 'sweetalert2'
+import toast from 'react-hot-toast'
 
 const SignIn = () => {
     const { emailPasswordSignIn, setForgetEmail } = useContext(AuthContext)
@@ -28,11 +28,11 @@ const SignIn = () => {
 
             })
             .catch((error) => {
-                console.log(error.message)
+                // toast.error(error.message)
+                return toast.error("Please input correct email and password")
             })
     }
     const handleForgetPassword = () => {
-        console.log('forget password')
         const emailValue = emailRef.current.value;
         console.log(emailValue)
         setForgetEmail(emailValue)
@@ -42,9 +42,9 @@ const SignIn = () => {
     const notifySuccess = () => {
         Swal.fire({
             title: 'Welcome',
-            text: 'You are Log in Career Path',
+            text: 'You are Login | Career Path',
             icon: 'success',
-            confirmButtonText: 'Cool'
+            confirmButtonText: 'Okay'
         })
     }
 
