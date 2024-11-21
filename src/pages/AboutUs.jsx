@@ -1,6 +1,30 @@
 import React from 'react';
+import Swal from 'sweetalert2'
+
 
 const AboutUs = () => {
+
+    const handleContactUs = (e) => {
+        e.preventDefault()
+        e.target.name.value = ''
+        e.target.email.value = ''
+        e.target.message.value = ''
+
+
+        notifySuccess()
+
+    }
+
+    const notifySuccess = () => {
+        Swal.fire({
+            title: 'Welcome',
+            text: 'Thank you for contacting us. We will respond promptly.',
+            icon: 'success',
+            confirmButtonText: 'Okay'
+        });
+    };
+
+
     return (
         <div>
             <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
@@ -12,17 +36,19 @@ const AboutUs = () => {
                     </p>
 
                     {/* Form Section */}
-                    <form className="space-y-4">
+                    <form onSubmit={handleContactUs} className="space-y-4">
                         <h1 className='text-lg md:text-xl font-light'>If You have any Inquiry, please contact with us.</h1>
                         <div>
                             <label htmlFor="name" className="block text-gray-700 font-medium">
                                 Your Name
                             </label>
                             <input
+                                name='name'
                                 type="text"
                                 id="name"
                                 className="mt-1 w-full border rounded p-2 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 placeholder="Enter your name"
+                                required
                             />
                         </div>
                         <div>
@@ -30,10 +56,12 @@ const AboutUs = () => {
                                 Your Email
                             </label>
                             <input
+                                name='email'
                                 type="email"
                                 id="email"
                                 className="mt-1 w-full border rounded p-2 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 placeholder="Enter your email"
+                                required
                             />
                         </div>
                         <div>
@@ -41,15 +69,16 @@ const AboutUs = () => {
                                 Your Message
                             </label>
                             <textarea
+                                name='message'
                                 id="message"
                                 className="mt-1 w-full border rounded p-2 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 rows="4"
                                 placeholder="Write your message here"
+                                required
                             ></textarea>
                         </div>
                         <div>
                             <button
-                                type="button"
                                 className="bg-blue-500 text-white font-medium px-4 py-2 rounded hover:bg-blue-600"
                             >
                                 Submit
