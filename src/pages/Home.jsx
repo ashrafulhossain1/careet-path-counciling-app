@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
             </section>
             {/* FAQ */}
-            <section className='py-10 bg-white'>
+            <section className='py-10 bg-slate-100'>
                 <div className='max-w-screen-xl mx-auto'>
                     <FAQ></FAQ>
                 </div>
