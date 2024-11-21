@@ -17,9 +17,11 @@ const AuthProvider = ({ children }) => {
     // console.log("HHHHHHHHHHH", appointment)
 
     const googleSignIn = () => {
+        setLoader(true)
         return signInWithPopup(auth, googleProvider)
     }
     const githubSignIn = () => {
+        setLoader(true)
         return signInWithPopup(auth, githubProvider)
     }
 
@@ -50,13 +52,17 @@ const AuthProvider = ({ children }) => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
             if (currentUser) {
                 setUser(currentUser)
+                setLoader(false)
+
                 // console.log('Current USER - ON-Auth-state:', currentUser)
             }
             else {
                 setUser(null)
+                setLoader(false)
+
                 // console.log("NOT FOUND")
             }
-            setLoader(false)
+            // setLoader(false)
         })
         return () => {
             unsubscribe()
@@ -65,7 +71,7 @@ const AuthProvider = ({ children }) => {
 
     // console.log("MAIN USER use-state", user)
 
-console.log(import.meta.env.VITE_Ashr)
+    console.log(import.meta.env.VITE_Ashr)
 
 
 

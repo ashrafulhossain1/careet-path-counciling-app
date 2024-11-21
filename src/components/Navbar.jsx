@@ -64,7 +64,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex items-center gap-3'>
-                <img src={logo} className='ml-2 h-8 hidden md:flex w-8 md:h-12 md:w-12 object-cover rounded-xl' alt="" />
+                    <img src={logo} className='ml-2 h-8 hidden md:flex w-8 md:h-12 md:w-12 object-cover rounded-xl' alt="" />
 
                     <Link to='/' className="pl-0 text-base md:text-2xl btn btn-ghost 
                 animate__animated  animate__flip  animate__slower">CareerPath</Link>
@@ -88,10 +88,14 @@ const Navbar = () => {
                     }
                 </div>
                 {
-                    user ? <button onClick={handleLogOut} className='text-xs btn btn-ghost md:text-base'>Log out</button> : <>
-
-                        <NavLink to='/signIn' className='text-xs btn btn-ghost  md:text-base'>Sign In</NavLink>
-                    </>
+                    user ? <button onClick={handleLogOut} className='text-xs btn btn-ghost md:text-base'>Log out</button> :
+                        loader ? <>
+                            <div className="skeleton bg-teal-600 bg-opacity-5 h-16 w-16 shrink-0 rounded-full"></div>
+                        </>
+                            :
+                            <>
+                                <NavLink to='/signIn' className='text-xs btn btn-ghost  md:text-base'>Sign In</NavLink>
+                            </>
                 }
             </div>
         </div>

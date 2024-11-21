@@ -16,8 +16,8 @@ const ServiceCard = ({ service }) => {
                 </div>
                 <div>
                     <img src={image} alt={`${serviceName} image`} className='h-56 w-full object-cover' />
-                    <p className='px-2 text-gray-600 my-2'>Session Type: <span className='font-semibold'>{category}</span></p>
-                    <button className='px-2 py-1 rounded-tr-xl rounded-br-xl bg-slate-100 text-gray-600 font-semibold border'>Appointment Fee: <span>{pricing}</span></button>
+                    <p className='px-2 text-gray-600 my-2'>Category: <span className='font-semibold'>{category}</span></p>
+                    <button className='px-2 py-1 rounded-tr-xl rounded-br-xl bg-slate-100 text-gray-600 font-semibold border'>Appointment Fee: <span>{pricing} $</span></button>
                     <p className='text-teal-600 font-bold mt-2'>
                         <Link to={`/details/${id}`}>
                             <button className='btn btn-sm border bg-teal-700 hover:bg-teal-800 text-white rounded-lg'>

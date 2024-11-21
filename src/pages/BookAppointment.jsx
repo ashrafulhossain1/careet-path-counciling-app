@@ -38,7 +38,7 @@ const BookAppointment = () => {
                 ) : (
                     <div className='flex flex-col items-center justify-center space-y-6 mt-10'>
                         <p className="text-xl md:text-3xl font-bold text-red-500 text-center">
-                            No appointments available.
+                            No appointment has been booked for any service.
                         </p>
                         <button
                             onClick={() => navigate('/#services')}
