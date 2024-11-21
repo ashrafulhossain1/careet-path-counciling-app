@@ -65,6 +65,9 @@ const AuthProvider = ({ children }) => {
 
     // console.log("MAIN USER use-state", user)
 
+console.log(import.meta.env.VITE_Ashr)
+
+
 
     const authInfo = {
         googleSignIn,

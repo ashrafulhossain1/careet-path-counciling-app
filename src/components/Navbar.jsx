@@ -7,7 +7,7 @@ import logo from '../assets/logocp.webp'
 const Navbar = () => {
     const { user, logOut, unknownImage, loader, appointment } = useContext(AuthContext)
 
-    console.log(user)
+    // console.log(user)
 
     const handleLogOut = () => {
         logOut()

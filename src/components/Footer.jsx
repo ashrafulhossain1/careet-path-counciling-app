@@ -48,7 +48,7 @@ const Footer = () => {
                     <h2 className="text-xl font-bold mb-4">Contact Us</h2>
                     <p className="mb-2">
                         <i className="fas fa-envelope mr-2"></i>
-                        <p>admin@careerpath.com</p>
+                        <span>admin@careerpath.com</span>
                     </p>
                     <p className="mb-2">
                         <i className="fas fa-phone"></i>
