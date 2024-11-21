@@ -6,6 +6,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { Helmet } from "react-helmet-async";
 import toast from 'react-hot-toast'
+import Swal from 'sweetalert2'
+
 
 const SignUp = () => {
    const { emailPasswordSignUp, updateProfileData } = useContext(AuthContext)
@@ -35,7 +37,7 @@ const SignUp = () => {
       emailPasswordSignUp(email, password)
          .then((result) => {
             // console.log(result)
-            toast.success("Successfully login this page");
+            notifySuccess()
 
             updateProfileData(name, photo)
                .then(() => {
@@ -54,7 +56,14 @@ const SignUp = () => {
    }
 
 
-   // console.log(showPassword)
+   const notifySuccess = () => {
+      Swal.fire({
+         title: 'Welcome',
+         text: 'You are Login | Career Path',
+         icon: 'success',
+         confirmButtonText: 'Okay'
+      })
+   }
 
 
 
