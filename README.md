@@ -10,6 +10,17 @@
 
 ---
 
+## 🛠️ Technologies Used
+
+- **React**: Component-based library for building user interfaces.
+- **React Router**: Handles navigation and private routing.
+- **Firebase**: User authentication and data storage.
+- **Tailwind CSS**: Utility-first framework for styling.
+- **Swiper.js**: Modern slider implementation.
+- **AOS**: Adds smooth animations to elements.
+
+---
+
 ## ✨ Features
 
 1. **Responsive Design**:
@@ -66,16 +77,6 @@
 
 ---
 
-## 🛠️ Technologies Used
-
-- **React**: Component-based library for building user interfaces.
-- **React Router**: Handles navigation and private routing.
-- **Firebase**: User authentication and data storage.
-- **Tailwind CSS**: Utility-first framework for styling.
-- **Swiper.js**: Modern slider implementation.
-- **AOS**: Adds smooth animations to elements.
-
----
 
 ## 🔧 Installation Guide
 
